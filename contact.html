@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | ShadesTech</title>
+
+  <meta name="description" content="Contact ShadesTech for feedback, collaboration, or meaningful tech discussions.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BCTJ7C1DQ8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BCTJ7C1DQ8');
+</script>
+
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="header">
+  <div class="container nav">
+    <h1 class="logo">Shades<span>Tech</span></h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="blog.html">Insights</a>
+      <a href="about.html">About</a>
+      <a href="/contact.html" class="active">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="section contact">
+  <div class="container contact-wrap">
+
+    <h1>Get in Touch</h1>
+
+    <p class="contact-lead">
+      Questions, feedback, or ideas worth sharing —  
+      reach out anytime.
+    </p>
+
+    <!-- EMAIL OPTION -->
+    <p class="contact-email">
+      Prefer email?
+      <a href="mailto:aishamasood783@gmail.com">shadestech@gmail.com</a>
+    </p>
+
+    <!-- CONTACT FORM (LIVE VIA FORMSPREE) -->
+    <form
+  name="contact" netlify
+  method="POST"
+  data-netlify="true"
+  class="contact-form"
+>
+  <input type="hidden" name="subject" value="New message from ShadesTech">
+
+  <input type="hidden" name="form-name" value="contact">
+
+  <input type="text" name="name" placeholder="Your Name" required>
+
+  <input type="email" name="email" placeholder="Your Email" required>
+
+  <textarea name="message" placeholder="Your Message" required></textarea>
+
+  <button type="submit" class="btn">Send Message</button>
+  </form>
+
+
+
+    <p class="contact-note">
+      Messages are delivered directly to our inbox.
+    </p>
+
+  </div>
+</section>
+
+
+<footer class="footer">
+  <p>© 2026 ShadesTech</p>
+</footer>
+
+</body>
+</html>
