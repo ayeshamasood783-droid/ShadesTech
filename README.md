@@ -18,6 +18,7 @@
 
 ##  Live Demo
 **Website:** https://shadestech.netlify.app
+**Website Demo:**  https://ayeshamasood783-droid.github.io/ShadesTech/
 
 ##  Purpose
 This project was developed to strengthen my frontend development skills by building a responsive, visually appealing, and user-friendly blogging platform. It focuses on creating a seamless browsing experience while following modern web development practices.
